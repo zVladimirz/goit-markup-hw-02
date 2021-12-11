@@ -1,0 +1,199 @@
+:root{
+    --primari-bg-color:     #Ffffff;
+    --bg-color:             #F5F4FA;
+    --hero-bg-color:        #2F303A;
+    --primari-text-color:   #757575;
+    --title-text-color :    #212121;
+    --accent-text-color:    #2196F3;
+    --hero-color-title:     #ffffff;
+    --white-text-color:     #ffffff;
+/* logo */
+    --white-logo-color:     #ffffff;
+    --black-logo-color:     #000000;
+    --accent-logo-color:    #2196F3;
+
+    /* btn */
+    --accent-btn-color:    #2196F3;
+    --white-btn-color:    #ffffff;
+    --title-btn-color:    #212121;
+    --bg-btn-color:    #F5F4FA;
+
+    
+}
+
+
+.hero-button{
+    color:var(--white-btn-color);
+    background-color:var(--accent-btn-color);
+    cursor: pointer;
+}
+
+
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;    
+    background-color:var(--primari-bg-color);
+}
+
+.list {
+    list-style: none;
+}
+
+/* logo */
+.logo{
+    font-family: 'Raleway', sans-serif;  
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.2;
+    color: var(--accent-logo-color);
+    text-decoration-line: none;
+}
+.logocolor{
+    color: var(--black-logo-color);
+}
+.logocolor2{
+    color: var(--white-logo-color);
+}
+
+/* <!-- contacts section --> */
+.site-nav .link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    color: var(--title-text-color);
+    text-decoration-line: none;
+}
+.site-nav .link.current{
+    color: var(--accent-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus{
+    color: var(--accent-text-color);
+}
+.contacts-nav .link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    color: var(--primari-text-color);
+    text-decoration-line: none;
+}
+.contacts-nav .link:hover,
+.contacts-nav .link:focus{
+    color: var(--accent-text-color);
+}
+
+/* <!-- герой --> */
+.hero{
+    background-color:var(--hero-bg-color);
+}
+.hero-titel{    
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.2;    
+    color: var(--hero-color-title);
+    text-align: center;
+}
+
+.section-titel{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.2;    
+    text-align: center;
+    color: var(--title-text-color);
+}
+
+/* <!-- технологии features--> */
+.features-titel{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.2;    
+    color: var(--title-text-color);
+    text-transform: uppercase;
+    text-align: left;
+}
+.features-text{
+    font-size: 14px;
+    line-height: 1.7;    
+    color: var(--primari-text-color);
+    text-align: left;
+}
+
+
+
+/* <!-- команда --> */
+.comanda{
+    background-color:var(--bg-color);
+}
+.comanda-titel{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;    
+    color: var(--title-text-color);
+    text-align: center;
+}
+.comanda-text{
+    font-size: 16px;
+    line-height: 1.2;    
+    color: var(--primari-text-color);
+    text-align: center;
+}
+
+
+
+/* footer */
+.footer{
+    background-color:var(--hero-bg-color);
+}
+
+.adress-list .link{
+    font-size: 14px;
+    line-height: 1.7;    
+    color: var(--white-text-color);
+    opacity: .6;
+    text-decoration-line: none;
+}
+
+
+.adress-list .link:hover,
+.adress-list .link:focus{
+    opacity: 1;
+
+}
+
+
+
+
+/* portfolio */
+.filter-btn{
+    color:var(--title-btn-color);
+    background-color:var(--bg-btn-color);
+    cursor: pointer;
+}
+.filter-btn:hover,
+.filter-btn:focus{
+    color:var(--white-btn-color);
+    background-color:var(--accent-btn-color);
+}
+.filter-title{
+font-weight: 500;
+font-size: 18px;
+line-height: .5;    
+color: var(--title-text-color);
+text-align: left;
+}
+.filter-text{
+    font-size: 16px;
+    line-height: 1.88;    
+    color: var(--primari-text-color);
+    text-align: left;
+}
+.filter-link{
+    text-decoration-line: none;
+
+}
+
+
