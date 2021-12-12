@@ -17,15 +17,6 @@
     --white-btn-color:    #ffffff;
     --title-btn-color:    #212121;
     --bg-btn-color:    #F5F4FA;
-
-    
-}
-
-
-.hero-button{
-    color:var(--white-btn-color);
-    background-color:var(--accent-btn-color);
-    cursor: pointer;
 }
 
 
@@ -87,6 +78,11 @@ body{
 }
 
 /* <!-- герой --> */
+.hero-button{
+    color:var(--white-btn-color);
+    background-color:var(--accent-btn-color);
+    cursor: pointer;
+}
 .hero{
     background-color:var(--hero-bg-color);
 }
@@ -123,7 +119,6 @@ body{
 }
 
 
-
 /* <!-- команда --> */
 .comanda{
     background-color:var(--bg-color);
@@ -148,7 +143,6 @@ body{
 .footer{
     background-color:var(--hero-bg-color);
 }
-
 .adress-list .link{
     font-size: 14px;
     line-height: 1.7;    
@@ -156,12 +150,9 @@ body{
     opacity: .6;
     text-decoration-line: none;
 }
-
-
 .adress-list .link:hover,
 .adress-list .link:focus{
     opacity: 1;
-
 }
 
 
